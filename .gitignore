@@ -1,0 +1,12 @@
+# Installed packages — restored anytime with `npm install`
+app/node_modules/
+
+# Build cache / OS noise
+app/tsconfig.tsbuildinfo
+app/.vite/
+.DS_Store
+*.local
+
+# NOTE: app/dist (the built app) IS committed on purpose — it's what the
+# local launcher serves and what GitHub Pages publishes.
+.claude/settings.local.json

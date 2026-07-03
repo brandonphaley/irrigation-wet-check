@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wet-check",
+      "runtimeExecutable": "powershell.exe",
+      "runtimeArgs": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "C:\\Users\\Haley Family\\Documents\\Claude\\Projects\\irrigation wet check\\app\\server.ps1"],
+      "port": 5173
+    },
+    {
+      "name": "wildlife-tally",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8741", "--directory", "C:\\Users\\Haley Family\\Documents\\Claude\\Projects\\Wildife points app\\wildlife-tally-pwa"],
+      "port": 8741
+    }
+  ]
+}
